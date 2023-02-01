@@ -2,3 +2,45 @@
     font-family: 'fontawesome-webfont';
     src: url(font/opensans-regular-webfont.woff);
 }
+
+.superior {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/img/fondo-bienvenido-grande.jpg);
+    color: white;
+
+}
+
+.medio {
+    background-color: #f05f40;
+
+}
+
+#img2 {
+    width: 200px;
+}
+
+.naranja {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+
+#inf {
+    background-color: none;
+}
+
+.servicios {
+    display: flex;
+
+}
+
+#i {
+    fill: #f05f40
+}
