@@ -2,19 +2,70 @@
     font-family: 'fontawesome-webfont';
     src: url(font/opensans-regular-webfont.woff);
 }
-header {
-    background-image: url(/img/fondo-bienvenido-grande.jpg);
+.header {
     display: flex;
     flex-direction: column;
-    height: 1000px;
+    height: 948px;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/img/fondo-bienvenido-grande.jpg);
     color: white;
 }
 
-.contenido{
+.barra{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.455);
+    height: 70px;
+    justify-content: space-between;
+    padding-top:  10px;
     align-items: center;
+
+}
+
+h1{
+    margin-left: 50px;
+}
+
+.contenido{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.btn-group{
+    display: flex;
+    margin-right: 50px;
+    font-size: 20px;
+    
+}
+.button{
+    background-color: #f0604000;
+    border-style: none;
+    color: white;
+    border-radius: 0%;
+}
+.button:hover{
+    background-color: #f05f40;
+}
+
+.boton3{
+    font-size: 30px;
+}
+ .boton4{
+    font-size: 50px;
+}
+
+#contacto{
+    background-color: #f0604000;
+    border-style: none;
+    color: blue;
+    border-radius: 0%;
+    font-size: 25px;
 }
 .medio {
     background-color: #f05f40;
@@ -34,8 +85,8 @@ header {
     color: white
 }
 
-#inf {
-    background-color: none;
+.button2 {
+    background-color: black;
 }
 
 .servicios {
