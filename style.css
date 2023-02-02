@@ -16,15 +16,15 @@
     display: flex;
     flex-direction: row;
     background-color: rgba(0, 0, 0, 0.455);
-    height: 70px;
+    height: 100px;
     justify-content: space-between;
     padding-top:  10px;
     align-items: center;
 
 }
 
-h1{
-    margin-left: 50px;
+.titulo-nav{
+    margin-left: 300px;
 }
 
 .contenido{
@@ -39,8 +39,9 @@ h1{
 
 .btn-group{
     display: flex;
-    margin-right: 50px;
+    margin-right: 250px;
     font-size: 20px;
+    height: 70px;
     
 }
 .button{
@@ -48,6 +49,7 @@ h1{
     border-style: none;
     color: white;
     border-radius: 0%;
+    margin: 10px;
 }
 .button:hover{
     background-color: #f05f40;
@@ -56,16 +58,23 @@ h1{
 .boton3{
     font-size: 30px;
 }
- .boton4{
-    font-size: 50px;
+.boton4{
+    font-size: 70px;
+    margin-top: 25px;
 }
 
 #contacto{
-    background-color: #f0604000;
+    width: 350px;
+    height: 60px;
+    background-color: #f05f40;
     border-style: none;
-    color: blue;
-    border-radius: 0%;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-end-start-radius: 5px;
+    border-end-end-radius: 5px;
     font-size: 25px;
+    margin-top: 25px;
 }
 .medio {
     background-color: #f05f40;
@@ -85,15 +94,110 @@ h1{
     color: white
 }
 
-.button2 {
-    background-color: black;
+.QS{
+    margin-top: 10px;
 }
+
+.LORE{
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.button2 {
+    height: 70px;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-end-start-radius: 5px;
+    border-end-end-radius: 5px;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+
+.mediofinal{
+    height: 600px;
+}
+.titulo3{
+    font-size: 70px;
+    margin-top: 80px;
+    text-align: center;
+}
+
 
 .servicios {
     display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: space-around;
+    
 
 }
 
-#i {
-    fill: #f05f40
+.T1{
+    
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    
 }
+
+.T2{
+    font-size: 15px;
+    text-align: center;
+}
+
+.S1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+svg{
+    margin: 0%auto;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    fill: #f05f40;
+    justify-content: center;
+}
+
+
+
+.gris{
+    background-color: #424141;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.proyectos{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.imgcontend{
+
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.contend1 img, .contend2 img{
+    margin: 15px;
+    width: 400px;
+}
+
+.final{
+    padding-top: 25px;
+    height: 100px;
+    background-color: #202020;
+    color: white;
+    
+}
+ #copy{
+    text-align: center;
+    font-size: 16px;
+ }
