@@ -2,8 +2,8 @@
     font-family: 'fontawesome-webfont';
     src: url(font/opensans-regular-webfont.woff);
 }
-
-.superior {
+header {
+    background-image: url(/img/fondo-bienvenido-grande.jpg);
     display: flex;
     flex-direction: column;
     height: 1000px;
@@ -11,9 +11,11 @@
     background-repeat: no-repeat;
     background-image: url(/img/fondo-bienvenido-grande.jpg);
     color: white;
-
 }
 
+.contenido{
+    align-items: center;
+}
 .medio {
     background-color: #f05f40;
 
