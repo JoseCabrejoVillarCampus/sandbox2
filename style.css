@@ -51,6 +51,8 @@
     color: white;
     border-radius: 0%;
     margin: 10px;
+    transition: 200ms ease;
+    cursor: pointer;
 }
 .button:hover{
     background-color: #f05f40;
@@ -76,6 +78,12 @@
     border-end-end-radius: 5px;
     font-size: 25px;
     margin-top: 25px;
+    transition: 200ms ease;
+}
+
+#contacto:hover{
+    background-color: #20202000;
+    color: #f05f40;
 }
 .medio {
     background-color: #f05f40;
@@ -104,8 +112,26 @@
     margin-top: 15px;
     margin-left: 200px;
     margin-right: 200px;
+    animation: 2s alternate slidein;
 }
 
+.button2:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 .button2 {
     height: 70px;
     width: 400px;
@@ -185,11 +211,13 @@ svg{
 
     padding: 10px 0;
     margin: 0 auto;
+   
 }
 
 .contend1 img, .contend2 img{
     margin: 15px;
     width: 400px;
+    transition: 200ms ease;
 }
 
 .final{
@@ -199,7 +227,38 @@ svg{
     color: white;
     
 }
- #copy{
+#copy{
     text-align: center;
     font-size: 16px;
- }
+}
+
+.contend1 #im1:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+}
+.contend1 #im2:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+}
+.contend1 #im3:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+}
+.contend2 #im4:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+}
+.contend2 #im5:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+}
+.contend2 #im6:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+}
