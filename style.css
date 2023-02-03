@@ -118,6 +118,7 @@
     cursor: pointer;
     -webkit-transform: scale(1.09);
     transform: scale(1.09);
+    transition: 200ms ease;
 }
 
 @keyframes slidein {
@@ -155,7 +156,6 @@
 
 .servicios {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     margin-top: 80px; 
     margin-left: 400px;
@@ -180,6 +180,13 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.S1:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 200ms ease;
 }
 
 svg{
