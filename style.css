@@ -5,10 +5,9 @@
 .header {
     display: flex;
     flex-direction: column;
-    height: 948px;
-    background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/img/fondo-bienvenido-grande.jpg);
+    background-size: cover;
     color: white;
 }
 
@@ -157,10 +156,11 @@
 .servicios {
     display: flex;
     flex-direction: row;
-    margin-top: 80px;
-    justify-content: space-around;
-    
-
+    flex-wrap: nowrap;
+    margin-top: 80px; 
+    margin-left: 400px;
+    margin-right: 400px; 
+    justify-content: space-between;
 }
 
 .T1{
@@ -230,6 +230,7 @@ svg{
 #copy{
     text-align: center;
     font-size: 16px;
+    padding-top: 20px;
 }
 
 .contend1 #im1:hover{
